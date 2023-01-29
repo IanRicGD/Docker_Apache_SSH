@@ -10,7 +10,7 @@ El archivo DockerFile:
 
 ### Descargarla de DockerHub
 ```bash
-docker push ianrgd/apache_ssh:1.0
+docker pull ianrgd/apache_ssh:1.0
 ```
 
 ### Construirla con Docker
