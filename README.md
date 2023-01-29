@@ -26,8 +26,9 @@ docker run -p 8080:80 -p 2222:22 <imagen:tag>
 
 ### Usando volumenes
 ```bash
-docker run -v /home/user/Downloads/folder/:/var/www/html/ -p 8080:80 -p 2222:22 <imagen:tag>
+docker run -v [FolderPath]:/var/www/html/ -p 8080:80 -p 2222:22 <imagen:tag>
 ```
+En ese caso será necesario agregar en el FolderPath el archivo index.html que se mostrara con el servicio Apache, así como los demás recursos que se necesitaran para el sitio web.
 
 ## Comprobar el funcionamiento de los servicios
 
