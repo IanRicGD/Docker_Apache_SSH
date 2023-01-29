@@ -1,0 +1,10 @@
+#!/bin/sh
+
+echo "Iniciando SSH y Apache"
+
+
+#Iniciando el servicio ssh
+service ssh start
+
+#INiciando el servicio apache
+apachectl -D FOREGROUND
