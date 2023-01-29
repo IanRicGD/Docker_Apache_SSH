@@ -60,4 +60,4 @@ Posteriormente se solicitara la contraseña la cual es *docker*
 
 ## Links
 * [DockerHub](https://hub.docker.com/repository/docker/ianrgd/apache_ssh/general "Title")
-* [GitHub](https://hub.docker.com/repository/docker/ianrgd/apache_ssh/general "Title")
+* [GitHub](https://github.com/IanRicGD/Docker_Apache_SSH "Title")
